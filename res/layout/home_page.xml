@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Search_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Search_bar_name_left_margin"
+            android:layout_marginTop="@dimen/Search_bar_top_margin"
+            android:background="@color/white"
+            android:text="@string/Search_bar"
+            android:textColor="@color/darkGray"
+            android:textSize="@dimen/Username_text_size" />
+
+        <EditText
+        android:id="@+id/search_bar_edit"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Search_bar_left_margin"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/gray"
+        android:inputType=""
+
+        />
+
+    <Button
+        android:id="@+id/disconnect"
+        style="@style/Btn_connect_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Btn_disconnect_left_margin"
+        android:layout_marginTop="@dimen/Btn_disconnect_top_margin"
+        android:layout_marginRight="@dimen/Btn_disconnect_right_margin"
+        android:text="@string/Btn_disconnect"
+        />
+
+
+        <Button
+            android:id="@+id/favorite"
+            style="@style/Btn_connect_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Btn_favorite_left_margin"
+            android:layout_marginTop="@dimen/Btn_favorite_top_margin"
+            android:layout_marginRight="@dimen/Btn_favorite_right_margin"
+            android:background="@drawable/ic_favori"
+
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menu_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+ />
+
+
+
+
+    <Button
+        android:id="@+id/previous"
+        style="@style/Btn_connect_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Btn_previous_left_margin"
+        android:layout_marginTop="@dimen/Btn_previous_top_margin"
+        android:layout_marginRight="@dimen/Btn_previous_right_margin"
+        android:text="@string/Btn_Previous"
+
+        />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/Btn_connect_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Btn_next_left_margin"
+        android:layout_marginTop="@dimen/Btn_previous_top_margin"
+        android:layout_marginRight="@dimen/Btn_next_right_margin"
+        android:text="@string/Btn_next"
+
+        />
+    </RelativeLayout>

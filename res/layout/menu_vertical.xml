@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Recipe_Name"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Recipe_Name"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Recipe_Description"
+        app:layout_constraintStart_toEndOf="@+id/menu_vertical_item"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Recipe_Description"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="670dp"
+        android:text="@string/Recipe_Description"
+        android:textColor="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/share"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_vertical_item"
+        app:layout_constraintTop_toBottomOf="@+id/Recipe_Name">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/menu_vertical_item"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginRight="218dp"
+        android:src="@drawable/chef_cook"
+        app:layout_constraintEnd_toStartOf="@+id/favorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/share"
+        style="@style/Btn_connect_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_share"
+        app:layout_constraintEnd_toStartOf="@+id/favorite"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/favorite"
+        android:background="@drawable/ic_favori"
+        style="@style/Btn_connect_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/ic_favori"
+        app:layout_constraintBaseline_toBaselineOf="@+id/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_vertical_item">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

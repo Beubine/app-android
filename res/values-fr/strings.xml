@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_name">My Recipes</string>
+    <string name="Btn_new_account" translatable="false">Nouveau ?</string>
+    <string name="Btn_connect" translatable="false">Se connecter</string>
+    <string name="Search_bar" translatable="false">recherche :</string>
+    <string name="Btn_disconnect" translatable="false">Se déconnecter</string>
+</resources>

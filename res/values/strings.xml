@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- First Page -->
+
+    <string name="App_name">My Recipes</string>
+    <string name="Btn_new_account" translatable="false">Nouveau ?</string>
+    <string name="Btn_connect" translatable="false">Se connecter</string>
+
+    <!-- Home Page -->
+
+    <string name="Search_bar" translatable="false">Recherche :</string>
+    <string name="Btn_disconnect" translatable="false">Se déconnecter</string>
+    <string name="Btn_Previous" translatable="false">Précédent</string>
+    <string name="Btn_next" translatable="false">Suivant</string>
+    <string name="Recipe_Name" translatable="false">Nom de la recette</string>
+    <string name="Recipe_Description" translatable="false">Description de la recette</string>
+
+    <!-- New Account Page -->
+
+    <string name="Tittle_account_page" translatable="false">Nouveau compte ?</string>
+    <string name="Username" translatable="false">Nom de utilisateur</string>
+    <string name="Password" translatable="false">Mot de passe</string>
+    <string name="Password_confirm" translatable="false">Confirmation</string>
+    <string name="Btn_create" translatable="false">Créer</string>
+
+    <!-- Connect Page -->
+
+    <string name="Tittle_connect_page" translatable="false">Se Connecter</string>
+
+    <!-- Error Message -->
+
+    <string name="No_favorite" translatable="false">Aucun Favori</string>
+    <string name="No_recipe" translatable="false">Plus de connection</string>
+
+</resources>

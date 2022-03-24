@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel" type="com.example.test.viewmodele.LogInViewModel">
+        </variable>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:id="@+id/chef_cook_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chef_cook_2">
+
+    </ImageView>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+
+            android:id="@+id/Tittle_connect_page"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="center_horizontal"
+            android:text="@string/App_name"
+            android:textAlignment="center"
+            android:textColor="@color/darkGray"
+            android:textSize="@dimen/text_size">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/Username"
+            android:textColor="@color/darkGray"
+            android:textSize="@dimen/Username_text_size"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/Username_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Username_input_top_margin"
+            android:background="@color/white"
+            android:inputType=""
+            android:text="@={viewModel.email}"
+
+            />
+
+        <TextView
+            android:id="@+id/Mot_de_passe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Username_input_top_margin"
+            android:background="@color/white"
+            android:text="@string/Password"
+            android:textColor="@color/darkGray"
+            android:textSize="@dimen/Username_text_size"
+
+            />
+
+        <EditText
+            android:id="@+id/Mot_de_passe_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Username_input_top_margin"
+            android:background="@color/white"
+            android:inputType=""
+            android:text="@={viewModel.Password}"
+            />
+
+        <Button
+            android:id="@+id/Btn_log_in_2"
+            style="@style/Btn_connect_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Username_input_top_margin"
+
+            android:text="@string/Btn_connect"
+            android:onClick="@{() -> viewModel.logIn()}"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+</layout>

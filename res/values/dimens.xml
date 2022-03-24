@@ -1,0 +1,98 @@
+<resources>
+
+ <!-- First Page -->
+    <!-- Tittle -->
+    <dimen name="default_left_margin">90dp</dimen>
+    <dimen name="default_top_margin">320dp</dimen>
+    <dimen name="text_size">45dp</dimen>
+
+    <!-- Btn_new_account (right)-->
+
+    <dimen name="Btn_new_account_right_margin">4dp</dimen>
+    <dimen name="Btn_new_account_top_margin">400dp</dimen>
+    <dimen name="Btn_new_account_left_margin">200dp</dimen>
+
+    <!-- Btn_log_in (left) -->
+
+    <dimen name="Btn_log_in_left_margin">4dp</dimen>
+    <dimen name="Btn_log_in_top_margin">400dp</dimen>
+    <dimen name="Btn_log_in_right_margin">200dp</dimen>
+
+--------------------------------------------------------------------------
+
+ <!-- log_in_page -->
+    <!-- Tittle -->
+   <dimen name="Tittle_connect_page">45dp</dimen>
+   <dimen name="Tittle_connect_page_left_margin">90dp</dimen>
+   <dimen name="Tittle_connect_page_top_margin">180dp</dimen>
+   <dimen name="Tittle_connect_page_size">45dp</dimen>
+
+   <!-- Username -->
+
+   <dimen name="Username_left_margin">20dp</dimen>
+   <dimen name="Username_top_margin">300dp</dimen>
+   <dimen name="Username_text_size">20dp</dimen>
+
+   <!-- Username_input -->
+   <dimen name="Username_input_left_margin">10dp</dimen>
+   <dimen name="Username_input_top_margin">10dp</dimen>
+   <dimen name="Username_input_right_margin">10dp</dimen>
+
+   <!-- Mot_de_passe -->
+   <dimen name="Mot_de_passe_top_margin">370dp</dimen>
+
+   <!-- Mot_de_passe_input -->
+   <dimen name="Mot_de_passe_input_top_margin">370dp</dimen>
+
+   <!-- Btn_log_in -->
+   <dimen name="Btn_log_in_2_top_margin">480dp</dimen>
+
+--------------------------------------------------------------------------
+
+<!-- log_in_page -->
+  <!-- Tittle -->
+   <dimen name="Tittle_new_account_page">45dp</dimen>
+   <dimen name="Tittle_new_account_page_left_margin">20dp</dimen>
+   <dimen name="Tittle_new_account_page_top_margin">180dp</dimen>
+   <dimen name="Tittle_new_account_page_size">45dp</dimen>
+
+   <!-- Confirm mot_de_passe -->
+   <dimen name="Confirm_mot_de_passe_top_margin">440dp</dimen>
+
+   <!-- Mot_de_passe_input -->
+   <dimen name="Confirm_mot_de_passe_input_top_margin">440dp</dimen>
+
+   <!-- Btn_create -->
+   <dimen name="Btn_create_top_margin">510dp</dimen>
+
+--------------------------------------------------------------------------
+
+<!-- Home_page -->
+   <!-- Search_bar_tittle -->
+   <dimen name="Search_bar_name_left_margin">10dp</dimen>
+   <dimen name="Search_bar_top_margin">15dp</dimen>
+
+   <!-- Search_bar_input -->
+   <dimen name="Search_bar_left_margin">120dp</dimen>
+   <dimen name="Search_bar_right_margin">15dp</dimen>
+
+   <!-- Btn_favorite -->
+   <dimen name="Btn_favorite_left_margin">4dp</dimen>
+   <dimen name="Btn_favorite_top_margin">50dp</dimen>
+   <dimen name="Btn_favorite_right_margin">200dp</dimen>
+
+   <!-- Btn_disconnect -->
+   <dimen name="Btn_disconnect_left_margin">200dp</dimen>
+   <dimen name="Btn_disconnect_top_margin">50dp</dimen>
+   <dimen name="Btn_disconnect_right_margin">4dp</dimen>
+
+   <!-- Btn_previous -->
+   <dimen name="Btn_previous_left_margin">0dp</dimen>
+   <dimen name="Btn_previous_top_margin">685dp</dimen>
+   <dimen name="Btn_previous_right_margin">260dp</dimen>
+
+   <!-- Btn_next -->
+   <dimen name="Btn_next_left_margin">260dp</dimen>
+   <dimen name="Btn_next_right_margin">0dp</dimen>
+
+</resources>
